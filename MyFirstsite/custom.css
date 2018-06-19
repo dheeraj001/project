@@ -1,0 +1,49 @@
+.Food_image{
+    background:url(heroimage.jpg) no-repeat;
+    background-size: cover;
+    --webkit-backgound-size: cover;
+    height:100vh;
+    position: relative;
+}
+.Food_wrapper{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center; 
+}
+ 
+
+ .font_code .postal_code{
+     display: block;
+     width: 250px;
+     border-radius: 1.2em;
+     outline: none;
+     margin-left: auto;
+     margin-right: auto;
+     height: 30px;
+     padding: .8em;
+     border: none;
+     position: relative;
+}
+
+.font_code .button_code {
+    display: block;
+    width: 100;
+    padding-right: 0em;
+   border-radius: .4em;
+   outline: none;
+   margin-top: 1em;
+   position: absolute;
+   left: 8em;
+   background-color: #00bab1;
+   color: white;
+   border: none;
+}
